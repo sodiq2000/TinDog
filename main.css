@@ -1,0 +1,68 @@
+@import url('');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: 1em 2em;
+}
+#hero{
+    background-color: #dc3545;
+    color: #ffffff;
+}
+header{
+    width: 80%;
+    margin: auto;
+}
+nav#navbar{
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav#navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+nav#navbar ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+nav#navbar ul li{
+    list-style: none;
+
+}
+nav#navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.bars{
+    display: none;
+}
+/* showcase style */
+.showcase-container{
+    display: flex;
+    
+}
+.showcase-content{
+    width: 40%;
+}
+.showcase-content h1{
+    font-size: 48px;
+}
+#showcase-img{
+    width: 30%;
+    transform: rotate(30deg);
+}
