@@ -18,7 +18,13 @@
                     <li class="nav-item"><a href="#">Pricing</a></li>
                     <li class="nav-item"><a href="#">Download</a></li>
                 </ul>
-                <div class="bars">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Download</a>
+                  </div>
+                <div class="bars" onclick="openNav()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
@@ -71,6 +77,10 @@
         </div>
     </section>
     <section id="pricing">
+        <div class="pricing-content">
+            <h1>A plan for every dog's need</h1>
+            <p>simple and affordable price plans for you and your dog</p>
+        </div>
         <div class="container pricing-container">
             <div class="price-card">
                 <div class="card-top"><h3>Standard</h3></div>
@@ -116,10 +126,15 @@
     </section>
     <section id="contact">
         <div class="socials">
-
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-envelope"></i>
         </div>
         <p>&copy; Copyright 2022 TinDog</p>
         <p>Made with <i class="fa-solid fa-heart"></i> by <a href="#">Muhammed Sodiq</a></p>
     </section>
+
+    <script src="main.js"></script>
 </body>
 </html>
